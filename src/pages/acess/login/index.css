@@ -1,0 +1,49 @@
+.loginContainer {
+    width: 500px;
+    position:relative;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color:rgb(164, 212, 172)
+}
+
+.loginField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.submitButton {
+    margin-top: 20px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('/src/assets/backgroundLogin.jpg');
+}
+
+input {
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  width: 300px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  padding: 10px;
+  margin: 10px
+}
